@@ -14,18 +14,15 @@ projects:
     date: June 2020
     link: #
   - name: Workflow Runner
-    desc: <br><br><br><br><br>
     active: false
     date: September 2020
     image: images/project-nopic2.png
   - name: Real User Monitoring
     active: false
-    desc: <br><br><br><br><br>
     date: September 2020
     image: images/project-nopic.png
   - name: Logserver
     active: false
-    desc: <br><br><br><br><br>
     date: September 2020
     image: images/project-nopic2.png
 ---
