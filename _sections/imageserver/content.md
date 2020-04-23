@@ -1,6 +1,4 @@
 ---
 layout: imageserver/content
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Images have a high impact on your e-commerce success and your page load. A rough number comes from HTTP Archive, it shows that  more than 60 % of data load is caused by images. Luckily this critical element is at the same time a so called low hanging fruit. Mainly there are three techniques for optimizing images - resizing, manipulation and optimization. The results are load lighter, fewer and faster. Easy to change but with an significant effect on your loading time. 
