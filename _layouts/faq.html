@@ -1,0 +1,29 @@
+    <!--SECTION FAQS START-->
+    <section class="faqs" id="faq">
+        <div class="container">
+            <h2 class="title text-center">Frequently Asked Question</h2>
+          
+            <div class="accordion" id="accordionFaq">
+                <div class="row">
+{%- for question in  page.questions -%}
+                    <div class="col-lg-6">
+                        <div class="card-faqs">
+                            <div class="card--header" id="heading{{ forloop.index }}">
+                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
+                                        {{ question.q }}
+                                    </a>
+                            </div>
+
+                            <div id="collapse{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}" data-parent="#accordionFaq">
+                                <div class="card--body">
+                                    {{ question.a }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {%- endfor -%}
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECTION FAQS END-->

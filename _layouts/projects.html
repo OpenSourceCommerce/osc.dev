@@ -1,0 +1,54 @@
+    <!--SECTION OUR PROJECT START-->
+    <section class="our-project" id="projects">
+        <div class="container">
+            <h2 class="title text-center">Our Projects</h2>
+            <div class="swiper-container project-slider">
+                <div class="swiper-wrapper">
+                    {%- for project in page.projects -%}
+                    {%- if project.funded > 0 and project.goal > 0 -%}
+                        {%- assign progress = project.funded | times: 1.0| divided_by: project.goal | times: 1.0 | times: 100 | round  -%}
+                    {%- else -%}
+                    {%- assign progress = 0 -%}
+                    {%- endif -%}
+                        <div class="swiper-slide">
+                        <div class="project-card {% if project.active != true %}inactive-card{% endif %}">
+                            <div class="img-project">
+                                <a href="{{ project.link | default: '#' }}">
+                                    <img src="{{ project.image | default: '/images/project-nopic.png' }}" alt="{{ project.name }}" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="project-body">
+                                <span class="project-date">{{ project.date }}</span>
+                                <a href="{{ project.link | default: '#' }}">
+                                    <h4>{{ project.name }}</h4>
+                                </a>
+                                <a href="{{ project.link | default: '#' }}">
+                                    <p>{{ project.desc | markdownify }}</p>
+                                </a>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: {{ progress  }}%;" aria-valuenow="{{ progress }}" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <ul class="info-project">
+                                    <li>
+                                        <span>{{ project.backers | default: 0 }}</span>
+                                        <p>Backers</p>
+                                    </li>
+                                    <li> <span>{{ progress }}%</span>
+                                        <p>Funded</p>
+                                    </li>
+                                    <li> <span>{{ project.goal | default: 0 -}}&nbsp;€</span>
+                                        <p>Goal</p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    {%- endfor -%}
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!--SECTION OUR PROJECT END-->

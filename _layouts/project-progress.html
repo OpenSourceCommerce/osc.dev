@@ -1,0 +1,41 @@
+{%- assign projects_section = site.sections | where:"id", "/sections/projects"  | first -%}
+{%- assign project = projects_section.projects | where: "name", page.project | first -%}
+{%- assign progress = project.funded | times: 1.0| divided_by: project.goal | times: 1.0 | times: 100 | round | default: 0 -%}
+<!--SECTION PROGRESS CARD START-->
+    <section class="product-content pt-0">
+        <div class="container">
+            <div class="product-card">
+                <p class="pr-t d-flex d-md-none">Progress <span class="ml-auto">{{ progress }}%</span></p>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width:{{ progress }}%;" aria-valuenow="{{ progress }}" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col">
+                        <div class="product-info">
+                            <span>{{ project.backers }}</span>
+                            <p>Backers</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-info">
+                            <span>{{ project.funded }} €</span>
+                            <p>Funded</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-info">
+                            <span>{{ progress }}%</span>
+                            <p>Progress</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-info">
+                            <span>{{ project.goal }} €</span>
+                            <p>Goal</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--SECTION PROGRESS CARD END-->

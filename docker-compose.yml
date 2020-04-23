@@ -1,0 +1,11 @@
+version: "3.5"
+services:
+  jekyll:
+    image: jekyll/jekyll:4.0
+    volumes:
+    - .:/srv/jekyll
+    - ./gemfiles:/usr/local/bundle:cached
+    ports:
+      - 127.0.0.1:4000:4000
+      - 127.0.0.1:35729:35729
+    command: jekyll serve --trace --livereload

@@ -1,0 +1,9 @@
+{%- include header.html %}
+
+{%- for section in page.sections -%}
+  {%- assign id = section | prepend: "/sections/" -%}
+  {%- assign s = site.sections | where:"id", id  | first  -%}
+  {{ s }}
+{%- endfor -%}
+
+{%- include footer.html -%}

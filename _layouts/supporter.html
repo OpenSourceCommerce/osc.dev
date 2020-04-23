@@ -1,0 +1,18 @@
+    <!--Section Clients Start-->
+    <section class="supporter-main">
+        <div class="container">
+            <div class="swiper-container supporter">
+                <div class="swiper-wrapper">
+                    {%- for supporter in  page.supporters -%}
+                    <div class="swiper-slide">
+                        <div class="img-supporter">
+                            <a href="{{ supporter.link }}" target="_blank"><img src="{{ supporter.logo }}" alt="{{ supporter.name }}"></a>
+                        </div>
+                    </div>
+                    {%- endfor -%}
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section Clients End-->
+    
