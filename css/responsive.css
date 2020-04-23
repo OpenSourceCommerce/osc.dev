@@ -59,7 +59,7 @@
                 margin-bottom: 18px;
                 font-size: 16px;
             }
-            .projct-body p {
+            .project-body p {
                 font-size: 14px;
                 margin-bottom: 30px;
                 line-height: 30px;
@@ -70,7 +70,7 @@
             .info-project li p {
                 font-size: 14px;
             }
-            .projct-body {
+            .project-body {
                 padding: 15px;
             }
             .project-slider .swiper-pagination-bullet.swiper-pagination-bullet-active {
@@ -193,10 +193,10 @@
             .hero-text {
                 padding: 30px 20px 0;
             }
-            .clients-main .container {
+            .supporter-main .container {
                 padding: 0;
             }
-            .clients-main {
+            .supporter-main {
                 padding: 60px 0;
             }
             .about-main .content {

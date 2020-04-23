@@ -7,571 +7,590 @@
     4. Hero Sectin
     --------------------------------------*/
         
-        @import "bootstrap.min.css";
-        @import "swiper.min.css";
-        @import "fontawesome.css";
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
-        body {
-            color: #54565A;
-            font-size: 18px;
-            font-family: 'Open Sans', sans-serif;
-            line-height: normal;
-            font-weight: 400;
-        }
-        
-        h1,
-        h2,
-        h3,
-        h4 {
-            font-weight: 700;
-            color: #333333;
-        }
-        
-        h1,
-        h2,
-        h3,
-        h4,
-        p {
-            margin-bottom: 10px;
-        }
-        
-        h1 {
-            font-size: 42px;
-        }
-        
-        h2 {
-            font-size: 36px;
-        }
-        
-        h3 {
-            font-size: 30px;
-        }
-        
-        h4 {
-            font-size: 24px;
-        }
-        
-        p {
-            font-size: 18px;
-            line-height: 24px;
-        }
-        
-        ul,
-        ol {
-            padding: 0;
-            margin: 0;
-        }
-        
-        li {
-            list-style: none;
-        }
-        
-        a {
-            text-decoration: none;
-            transition: all 0.3s;
-        }
-        
-        section {
-            padding: 50px 0;
-        }
-        .about-product {
-            padding: 0px 0;
-        }
-        
-        .btn {
-            min-width: 210px;
-            height: 48px;
-            padding: 0 15px;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 24px;
-            text-transform: uppercase;
-            font-weight: 700;
-            font-size: 16px;
-        }
-        
-        .btn:focus {
-            box-shadow: none;
-            outline: none;
-        }
-        
-        .cta-primary-white {
-            background: #fff;
-            color: #735E91;
-        }
-        
-        .cta-primary-white:hover {
-            background-color: #5a4a71;
-            color: #fff;
-        }
-        
-        .cta-primary-outline {
-            border-radius: 24px;
-            border: 3px solid #fff;
-            color: #fff;
-        }
-        
-        .cta-primary-outline:hover {
-            background-color: #5a4a71;
-            color: #fff;
-            border: 3px solid #5a4a71;
-        }
-        /* ------------------------
+    @import "bootstrap.min.css";
+    @import "swiper.min.css";
+    @import "fontawesome.css";
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+    body {
+        color: #54565A;
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+        line-height: normal;
+        font-weight: 400;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-weight: 700;
+        color: #333333;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    p {
+        margin-bottom: 10px;
+    }
+    
+    h1 {
+        font-size: 42px;
+    }
+    
+    h2 {
+        font-size: 36px;
+    }
+    
+    h3 {
+        font-size: 30px;
+    }
+    
+    h4 {
+        font-size: 24px;
+    }
+    
+    p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+    ul,
+    ol {
+        padding: 0;
+        margin: 0;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+        transition: all 0.3s;
+    }
+    
+    section {
+        padding: 50px 0;
+    }
+
+    .about-product {
+        padding: 0px 0;
+    }
+
+    .btn {
+        min-width: 210px;
+        height: 48px;
+        padding: 0 15px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 24px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+    .btn:focus {
+        box-shadow: none;
+        outline: none;
+    }
+    
+    .cta-primary-white {
+        background: #fff;
+        color: #35467B;
+    }
+    
+    .cta-primary-white:hover {
+        background-color: #2d3b65;
+        color: #fff;
+    }
+    
+    .cta-primary-outline {
+        border-radius: 24px;
+        border: 3px solid #fff;
+        color: #fff;
+    }
+    
+    .cta-primary-outline:hover {
+        background-color: #5a4a71;
+        color: #fff;
+        border: 3px solid #5a4a71;
+    }
+    /* ------------------------
 HEADR CSS
 ----------------------------- */
-        
-        header {
-            padding: 25.5px 0;
-            min-height: 108px;
-            display: flex;
-            align-items: center;
-        }
-        
-        .navbar-toggler {
-            padding: 0;
-            margin: 0;
-            outline: none;
-        }
-        
-        .navbar-brand {
-            color: #333333;
-            margin: 0;
-            padding: 0;
-            font-size: 30px;
-            font-weight: 700;
-        }
-        
-        header .navbar-nav .nav-item .nav-link {
-            color: #333333;
-            font-size: 16px;
-            padding: 0 18px;
-            display: inline-flex;
-            line-height: 16px;
-        }
-        
-        header .navbar-nav .nav-item.active .nav-link {
-            color: #0094FF;
-            font-size: 21px;
-            font-weight: 700;
-        }
-        
-        .hero-card {
-            border-radius: 30px;
-            background: #00bcff;
-            padding: 155px 0 0;
-        }
-        
-        .hero-main {
-            padding: 0;
-        }
-        
-        .hero-text {
-            padding: 50px 30px 0 60px;
-        }
-        
-        .hero-text h1 {
-            color: #fff;
-        }
-        
-        .hero-text p {
-            font-size: 21px;
-            color: #fff;
-        }
-        
-        .hero-img {
-            margin-bottom: -18px;
-        }
-        
-        .supporter .img-supporter {
-            text-align: center;
-        }
-        
-        .supporter .img-supporter img {
-            max-width: 100%;
-            width: auto;
-            margin: 0 auto;
-        }
-        
-        .supporter-main {
-            padding: 80px 0;
-        }
-        
-        .supporter .swiper-wrapper {
-            display: flex;
-            align-items: center;
-        }
-
-        .content h2 {
-            color: #212121;
-            line-height: 50px;
-            margin-bottom: 33px;
-        }
-        
-        .content p {
-            margin-bottom: 24px;
-        }
-        
-        .cta-link {
-            font-weight: 700;
-            font-size: 18px;
-            color: #0094ff;
-            text-transform: uppercase;
-            display: inline-flex;
-            align-items: center;
-        }
-        
-        .cta-link i {
-            margin-left: 8px;
-        }
-        
-        .cta-link:hover {
-            text-decoration: none;
-        }
-        
-        .content .cta-link {
-            margin-top: 30px;
-        }
-        
-        .project-card {
-            border-top-left-radius: 20px;
-            border-top-right-radius: 20px;
-            overflow: hidden;
-        }
-        
-        .project-card .img-project img {
-            width: 100%;
-        }
-        
-        .project-date {
-            display: block;
-            font-size: 16px;
-            color: #4A4A4A;
-            margin-bottom: 15px;
-        }
-        
-        .project-body {
-            text-align: center;
-            padding: 25px;
-        }
-        
-        .project-body a {
-            text-decoration: none;
-        }
-        
-        .project-body a h4 {
-            margin-bottom: 20px;
-        }
-        
-        .project-body p {
-            font-size: 16px;
-            color: #333333;
-            margin-bottom: 30px;
-        }
-        
-        .project-body .progress {
-            height: 6px;
-            border-radius: 3px;
-        }
-        
-        .progress {
-            background-color: #EDEDED;
-        }
-        
-        .progress-bar {
-            background-color: #3CBA92;
-        }
-        
-        .title {
-            margin-bottom: 60px;
-        }
-        
-        .info-project {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 30px 0;
-        }
-        
-        .info-project li {
-            flex: 1;
-        }
-        
-        .info-project li p {
-            margin: 0;
-            font-weight: 600;
-            font-size: 16px;
-            text-align: center;
-            color: #333;
-        }
-        
-        .info-project li span {
-            font-weight: 600;
-            font-size: 24px;
-            text-align: center;
-            color: #333;
-        }
-        
-        .project-body .cta-link {
-            margin-top: 0;
-        }
-        
-        .project-card.inactive-card {
-            opacity: 0.5;
-        }
-        
-        .project-slider .swiper-pagination {
-            margin-top: 40px;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .project-slider .swiper-pagination-bullet {
-            width: 14px;
-            height: 14px;
-            border-radius: 4px;
-            background-color: #b3bbc1;
-        }
-        
-        .project-slider .swiper-pagination-bullet.swiper-pagination-bullet-active {
-            background-color: #0094FF;
-            width: 18px;
-            height: 18px;
-        }
-        
-        .funding-card {
-            text-align: center;
-            background-color: #5F5E91;
-            border-radius: 30px;
-            padding: 60px 20px;
-        }
-        
-        .funding-card p,
-        .funding-card h2 {
-            color: #fff;
-        }
-        
-        .funding-card h2 {
-            margin-bottom: 24px;
-        }
-        
-        .funding-card p {
-            margin-bottom: 50px;
-        }
-        
-        .cta-action {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 -7.5px;
-        }
-        
-        .cta-action a {
-            margin: 0 7.5px;
-        }
-        
-        .card--header a {
-            display: flex;
-            align-items: center;
-            padding: 21px 30px;
-            border-radius: 15px;
-            background: #f6f6f6;
-            font-size: 24px;
-            color: #333;
-            text-decoration: none;
-            transition: all 0.5s;
-            position: relative;
-        }
-        
-        .card--header a:after {
-            font-family: "Font Awesome 5 Pro";
-            font-weight: 400;
-            content: "\f067";
-            margin-left: auto;
-        }
-        
-        .card--header a[aria-expanded="true"]:after {
-            content: "\f068";
-        }
-        
-        .card--header a[aria-expanded="true"]:hover {
-            color: #fff;
-        }
-        
-        .card--header a[aria-expanded="true"] {
-            background-color: #0094FF;
-            border-bottom-left-radius: 0;
-            border-bottom-right-radius: 0;
-            color: #fff;
-        }
-        
-        .card--body {
-            color: #fff;
-            padding: 0 30px 17px;
-            font-size: 16px;
-            line-height: 28px;
-        }
-        
-        .card-faqs .collapse {
-            background: #f6f6f6;
-            color: #fff;
-            visibility: hidden;
-            opacity: 0;
-            transition: all 0.5s;
-        }
-        
-        .card-faqs .collapse.show {
-            background-color: #0094FF;
-            color: #fff;
-            visibility: visible;
-            opacity: 1;
-        }
-        
-        .card-faqs {
-            border-radius: 15px;
-            overflow: hidden;
-            margin-bottom: 20px;
-        }
-        
-        .footer-card {
-            border-radius: 20px;
-            background: #4a4a4a;
-            padding: 37px 0;
-        }
-        
-        .footer-social {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 40px;
-        }
-        
-        .footer-social li {
-            margin: 0 20px;
-        }
-        
-        .footer-social li a {
-            color: #fff;
-            font-size: 24px;
-        }
-        
-        .footer-card p {
-            margin: 0;
-            text-align: center;
-            font-size: 18px;
-            color: #fff;
-        }
-        
-        footer {
-            padding-bottom: 40px;
-        }
-        
-        .server-card {
-            background-color: #35467B;
-            padding: 34px 50px;
-            border-radius: 30px;
-        }
-        
-        .server-card .hero-text {
-            max-width: 570px;
-        }
-        
-        .server-card .hero-text p,
-        .server-card .hero-text h1 {
-            margin-bottom: 30px;
-        }
-        
-        .server-card .hero-text p {
-            line-height: 30px;
-        }
-        
-        .server-card .hero-img {
-            position: relative;
-            bottom: -53px;
-        }
-        
-        .product-card {
-            padding: 57px;
-            background-color: #F8F8F8;
-            border-radius: 20px;
-        }
-        
-        .product-card .progress {
-            max-width: 1075px;
-            margin: 0 auto;
-            height: 15px;
-            border-radius: 7.5px;
-        }
-        
-        .product-card .product-info {
-            text-align: center;
-            height: 100%;
-        }
-        
-        .product-card .no-gutters [class*="col"] {
-            border-right: 1px solid #C3BFBF;
-            margin-top: 50px;
-        }
-        
-        .product-card .no-gutters [class*="col"]:last-child {
-            border: none;
-        }
-        
-        .product-card .product-info p {
-            margin-bottom: 0;
-        }
-        
-        .product-info span {
-            display: block;
-            font-size: 48px;
-            line-height: 65px;
-            color: #333;
-            margin-bottom: 8px;
-        }
-        
-        .product-info p {
-            margin-bottom: 0;
-            font-size: 24px;
-            color: #333;
-        }
-        
-        .content-text h2 {
-            margin-bottom: 30px;
-        }
-        
-        .content-text p {
-            font-size: 16px;
-            line-height: 26px;
-        }
-        
-        .content-text p:last-of-type {
-            margin-bottom: 0;
-        }
-        
-        .mt-70 {
-            margin-top: 70px;
-        }
-        .mb-50 {
-            margin-bottom: 50px;
-        }
-        
-        .icon-back {
-            width: 60px;
-            height: 60px;
-            background: #fff;
-            filter: drop-shadow(0px 0px 20px rgba(69, 75, 84, 0.2));
-            border-radius: 50%;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            color: #007CFF;
-        }
-        
-        .icon-back:hover {
-            background-color: #007CFF;
-            text-decoration: none;
-            color: #fff;
-        }
+    
+    header {
+        padding: 25.5px 0;
+        min-height: 108px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .navbar-toggler {
+        padding: 0;
+        margin: 0;
+        outline: none;
+    }
+    
+    .navbar-brand {
+        color: #333333;
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    header .navbar-nav .nav-item .nav-link {
+        color: #333333;
+        font-size: 16px;
+        padding: 0 18px;
+        display: inline-flex;
+        line-height: 16px;
+    }
+    
+    header .navbar-nav .nav-item.active .nav-link {
+        color: #0094FF;
+        font-size: 21px;
+        font-weight: 700;
+    }
+    
+    .hero-card {
+        border-radius: 30px;
+        background: #00bcff;
+        padding: 155px 0 0;
+    }
+    
+    .hero-main {
+        padding: 0;
+    }
+    
+    .hero-text {
+        padding: 50px 30px 0 60px;
+    }
+    
+    .hero-text h1 {
+        color: #fff;
+    }
+    
+    .hero-text p {
+        font-size: 21px;
+        color: #fff;
+    }
+    
+    .hero-img {
+        margin-bottom: -18px;
+    }
+    
+    .supporter .img-supporter {
+        text-align: center;
+    }
+    
+    .supporter .img-supporter img {
+        max-width: 100%;
+        width: auto;
+        margin: 0 auto;
+    }
+    
+    .supporter-main {
+        padding: 100px 0;
+    }
+    
+    .supporter .swiper-wrapper {
+        display: flex;
+        align-items: center;
+    }
+    
+    .content h2 {
+        color: #212121;
+        line-height: 50px;
+        margin-bottom: 33px;
+    }
+    
+    .content p {
+        margin-bottom: 24px;
+    }
+    
+    .cta-link {
+        font-weight: 700;
+        font-size: 18px;
+        color: #0094ff;
+        text-transform: uppercase;
+        display: inline-flex;
+        align-items: center;
+    }
+    
+    .cta-link i {
+        margin-left: 8px;
+    }
+    
+    .cta-link:hover {
+        text-decoration: none;
+    }
+    
+    .content .cta-link {
+        margin-top: 30px;
+    }
+    
+    .project-card {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        overflow: hidden;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .project-card .img-project img {
+        width: 100%;
+    }
+    
+    .project-date {
+        display: block;
+        font-size: 16px;
+        color: #4A4A4A;
+        margin-bottom: 15px;
+    }
+    
+    .project-body {
+        text-align: center;
+        padding: 25px;
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .project-body a {
+        text-decoration: none;
+    }
+    
+    .project-body a h4 {
+        margin-bottom: 20px;
+    }
+    
+    .project-body p {
+        font-size: 16px;
+        color: #333333;
+        margin-bottom: 30px;
+    }
+    
+    .project-body .progress {
+        height: 6px;
+        border-radius: 3px;
+        width: 100%;
+    }
+    
+    .progress {
+        background-color: #EDEDED;
+    }
+    
+    .progress-bar {
+        background-color: #3CBA92;
+    }
+    
+    .title {
+        margin-bottom: 60px;
+    }
+    
+    .info-project {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 0;
+        width: 100%;
+    }
+    
+    .pro-content {
+        width: 100%;
+    }
+    
+    .info-project li {
+        flex: 1;
+    }
+    
+    .info-project li p {
+        margin: 0;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        color: #333;
+    }
+    
+    .info-project li span {
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+        color: #333;
+    }
+    
+    .project-body .cta-link {
+        margin-top: 0;
+    }
+    
+    .project-card.inactive-card {
+        opacity: 0.5;
+    }
+    
+    .project-slider .swiper-pagination {
+        margin-top: 40px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .project-slider .swiper-pagination-bullet {
+        width: 14px;
+        height: 14px;
+        border-radius: 4px;
+        background-color: #b3bbc1;
+    }
+    
+    .project-slider .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        background-color: #0094FF;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .project-slider .swiper-slide {
+        height: auto;
+    }
+    
+    .funding-card {
+        text-align: center;
+        background-color: #5F5E91;
+        border-radius: 30px;
+        padding: 60px 20px;
+    }
+    
+    .funding-card p,
+    .funding-card h2 {
+        color: #fff;
+    }
+    
+    .funding-card h2 {
+        margin-bottom: 24px;
+    }
+    
+    .funding-card p {
+        margin-bottom: 50px;
+    }
+    
+    .cta-action {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 -7.5px;
+    }
+    
+    .cta-action a {
+        margin: 0 7.5px;
+    }
+    
+    .card--header a {
+        display: flex;
+        align-items: center;
+        padding: 21px 30px;
+        border-radius: 15px;
+        background: #f6f6f6;
+        font-size: 24px;
+        color: #333;
+        text-decoration: none;
+        transition: all 0.5s;
+        position: relative;
+    }
+    
+    .card--header a:after {
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 400;
+        content: "\f067";
+        margin-left: auto;
+    }
+    
+    .card--header a[aria-expanded="true"]:after {
+        content: "\f068";
+    }
+    
+    .card--header a[aria-expanded="true"]:hover {
+        color: #fff;
+    }
+    
+    .card--header a[aria-expanded="true"] {
+        background-color: #0094FF;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        color: #fff;
+    }
+    
+    .card--body {
+        color: #fff;
+        padding: 0 30px 17px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+    .card-faqs .collapse {
+        background: #f6f6f6;
+        color: #fff;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+    
+    .card-faqs .collapse.show {
+        background-color: #0094FF;
+        color: #fff;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .card-faqs {
+        border-radius: 15px;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    
+    .footer-card {
+        border-radius: 20px;
+        background: #4a4a4a;
+        padding: 37px 0;
+    }
+    
+    .footer-social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    
+    .footer-social li {
+        margin: 0 20px;
+    }
+    
+    .footer-social li a {
+        color: #fff;
+        font-size: 24px;
+    }
+    
+    .footer-card p {
+        margin: 0;
+        text-align: center;
+        font-size: 18px;
+        color: #fff;
+    }
+    
+    footer {
+        padding-bottom: 40px;
+    }
+    
+    .server-card {
+        background-color: #35467B;
+        padding: 34px 50px;
+        border-radius: 30px;
+    }
+    
+    .server-card .hero-text {
+        max-width: 570px;
+    }
+    
+    .server-card .hero-text p,
+    .server-card .hero-text h1 {
+        margin-bottom: 30px;
+    }
+    
+    .server-card .hero-text p {
+        line-height: 30px;
+    }
+    
+    .server-card .hero-img {
+        position: relative;
+        bottom: -53px;
+    }
+    
+    .product-card {
+        padding: 57px;
+        background-color: #F8F8F8;
+        border-radius: 20px;
+    }
+    
+    .product-card .progress {
+        max-width: 1075px;
+        margin: 0 auto;
+        height: 15px;
+        border-radius: 7.5px;
+    }
+    
+    .product-card .product-info {
+        text-align: center;
+        height: 100%;
+    }
+    
+    .product-card .no-gutters [class*="col"] {
+        border-right: 1px solid #C3BFBF;
+        margin-top: 50px;
+    }
+    
+    .product-card .no-gutters [class*="col"]:last-child {
+        border: none;
+    }
+    
+    .product-card .product-info p {
+        margin-bottom: 0;
+    }
+    
+    .product-info span {
+        display: block;
+        font-size: 48px;
+        line-height: 65px;
+        color: #333;
+        margin-bottom: 8px;
+    }
+    
+    .product-info p {
+        margin-bottom: 0;
+        font-size: 24px;
+        color: #333;
+    }
+    
+    .content-text h2 {
+        margin-bottom: 30px;
+    }
+    
+    .content-text p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    .content-text p:last-of-type {
+        margin-bottom: 0;
+    }
+    
+    .mt-70 {
+        margin-top: 70px;
+    }
+    .mb-70 {
+        margin-bottom: 70px;
+    }
+    
+    .icon-back {
+        width: 60px;
+        height: 60px;
+        background: #fff;
+        filter: drop-shadow(0px 0px 20px rgba(69, 75, 84, 0.2));
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #007CFF;
+    }
+    
+    .icon-back:hover {
+        background-color: #007CFF;
+        text-decoration: none;
+        color: #fff;
+    }
