@@ -1,6 +1,4 @@
 ---
 layout: imageserver/resizing
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-
-specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged<
+Resize your images on your server to exactly what is required on your website. So only the correct dimension will be load by the browser. The server can resize the images to any dimension, in real time and all based on URLs. On top you create a standard for all future picture uploads. 
