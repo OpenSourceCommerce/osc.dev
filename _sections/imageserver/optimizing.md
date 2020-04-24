@@ -1,6 +1,4 @@
 ---
 layout: imageserver/optimizing
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-
-specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged<
+The main aim of optimizing your images is to find the balance between the lowest file size and an acceptable quality. Choose the correct combination of format and compression type and you can change your image size less than 5 times.  
