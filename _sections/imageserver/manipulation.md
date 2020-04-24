@@ -1,5 +1,4 @@
 ---
 layout: imageserver/manipulation
 ---
-You can create a new image by manipulating the actual pixel data of the source image. All commonly effects like 
-pixel effects and also multi-pixel effects are available. Cropping, skewing, strechting - all known options fo distortion are also integrated. 
+There are plenty of options in manipulating images. We offer almost every technique which is required - from cropping, flipping up to colorizing. If an image needs to be overworked you find the right option in our tool set. 
