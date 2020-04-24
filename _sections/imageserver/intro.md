@@ -3,4 +3,4 @@ layout: imageserver/intro
 ---
 # Image Server
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+We are tired of that image business. They are a key cause for load pages but until now they have been ignored by Open Source - we put Image Server at our highest priority. Happily we can offer you a smart alternative to all the paid options out there. 
