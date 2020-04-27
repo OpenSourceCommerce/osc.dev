@@ -1,4 +1,4 @@
 ---
 layout: imageserver/library
 ---
-Our media library is an easy option to manage all your images. You can tag, store and categorize your visual content in a single place. It will be a never ending mess if your images are not organised by a library. 
+Our media library is an easy solution to manage all of your product images. You can tag, store and categorize your visual content in a single place. It's super easy to embed images from here into all of your e-commerce sites, landing pages and sales channels. 
