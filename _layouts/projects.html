@@ -36,7 +36,7 @@
                                         <li> <span>{{ progress }}%</span>
                                             <p>Funded</p>
                                         </li>
-                                        <li> <span>{{ project.goal }}&nbsp;€</span>
+                                        <li> <span>{{ project.goal | default: 0 }}{% if project.goal %}k{% endif %} €</span>
                                             <p>Goal</p>
                                         </li>
                                     </ul>

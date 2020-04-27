@@ -18,7 +18,7 @@
                     </div>
                     <div class="col">
                         <div class="product-info">
-                            <span>{{ project.funded }} €</span>
+                            <span>{{ project.funded | default: 0 }}{% if project.funded %}k{% endif %} €</span>
                             <p>Funded</p>
                         </div>
                     </div>
@@ -30,7 +30,7 @@
                     </div>
                     <div class="col">
                         <div class="product-info">
-                            <span>{{ project.goal }} €</span>
+                            <span>{{ project.goal | default: 0 }}{% if project.goal %}k{% endif %} €</span>
                             <p>Goal</p>
                         </div>
                     </div>
