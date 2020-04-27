@@ -4,6 +4,7 @@ sections:
   - header
   - intro
   - supporter
+  - video 
   - about
   - projects
   - fund
