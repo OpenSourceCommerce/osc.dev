@@ -6,8 +6,8 @@ projects:
       The Image Server solves three major challenges: A Media Library to sort and filter all of 
       your product images. Dynamically resizing and manipulating images based on url-params. 
       Automatically optimizing product images for best performance.
-    goal: 36000
-    funded: 10000
+    goal: 36.000
+    funded: 10.000
     backers: 2
     active: true
     image: images/imageserver.png
