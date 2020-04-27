@@ -1,4 +1,4 @@
 ---
 layout: imageserver/resizing
 ---
-Resize your images on your server to exactly what is required on your website. So only the correct dimension will be load by the browser. The server can resize the images to any dimension, in real time and all based on URLs. On top you create a standard for all future picture uploads. 
+Most e-commerce systems offer presets of image sizes that get generated on each upload of a new product image. This means you need to decide in advance which image sizes you want to use across your site. But what if you want to embed products in e-mail campaigns or any other sales channel where a different image size is more suitable? Add a new size preset globally for all images? This way you end up with lots of files that will never be used. Our Image Server brings you all the flexibillity you need by dynamically resizing images based on url params like for example <code>/images/shirt.jpg?h=300&w=300</code>.
