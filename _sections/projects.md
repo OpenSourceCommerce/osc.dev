@@ -12,7 +12,7 @@ projects:
     active: true
     image: images/imageserver.png
     date: June 2020
-    link: #
+    link: /imageserver.html
   - name: Workflow Runner
     active: false
     date: September 2020

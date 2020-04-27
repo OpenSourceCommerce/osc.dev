@@ -12,7 +12,11 @@
                 {%- endif -%}
                 <div class="swiper-slide">
                     <div class="project-card {% if project.active != true %}inactive-card{% endif %}">
-                        <div class="img-project"><img src="{{ project.image | default: '/images/project-nopic.png' }}" alt="{{ project.name }}" class="img-fluid"></div>
+                        <div class="img-project">
+                            <a href="{{ project.link | default: '#' }}">
+                                <img src="{{ project.image | default: '/images/project-nopic.png' }}" alt="{{ project.name }}" class="img-fluid">
+                            </a>
+                        </div>
                         <div class="project-body">
                             <div class="pr-title">
                                 <span class="project-date">
@@ -23,7 +27,9 @@
                                 </a>
                             </div>
                             <div class="pro-content">
-                                {{ project.desc | markdownify }}
+                                <a href="{{ project.link | default: '#' }}">
+                                    {{ project.desc | markdownify }}
+                                </a>
                                 <div class="pr-footer">
                                     <div class="progress">
                                         <div class="progress-bar" role="progressbar" style="width: {{ progress }}%;" aria-valuenow="{{ progress }}" aria-valuemin="0" aria-valuemax="100"></div>
