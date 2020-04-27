@@ -9,6 +9,7 @@ baseurl: "/"
 url: "https://osc.dev"
 #twitter_username:
 github_username:  osc-dev
+github_link: https://github.com/OSC-DEV
 
 plugins: []
 
