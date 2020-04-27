@@ -1,4 +1,4 @@
 ---
 layout: imageserver/optimizing
 ---
-The main aim of optimizing your images is to find the balance between the lowest file size and an acceptable quality. Choose the correct combination of format and compression type and you can change your image size less than 5 times. Optimizied images offer a better user experience - especially on mobile. 
+The main aim of optimizing product images is to find the balance between the lowest file size and best quality. Choose the correct combination of format and compression and you can shrink the transfer size drastically. Optimizied images offer a better user experience - especially for slow mobile users.
