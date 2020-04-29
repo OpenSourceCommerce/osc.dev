@@ -7,4 +7,4 @@ Many e-commerce sites and online shops are facing the same software challenges. 
 
 We connect developers and business owners to create software that solves common challenges for e-commerce sites. Developers can contribute their own ideas and learn from each other along the way. Every software project we create will be open source and free to use without any charge. We want to build an open e-commerce ecosystem.
 
-**We will not reinvent the wheel**. For every project we will try to incorporate and improve already existing Open Source components and libraries.
+**We will not reinvent the wheel**. For every project we will try to incorporate, improve or fund already existing Open Source components and libraries.
