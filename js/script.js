@@ -9,22 +9,22 @@
              },
              breakpoints: {
                  320: {
-                     slidesPerView: 2,
+                     slidesPerView: 3,
                      spaceBetween: 20,
                      loop: true,
                  },
                  640: {
-                     slidesPerView: 2,
+                     slidesPerView: 3,
                      spaceBetween: 20,
                      loop: true,
                  },
                  768: {
-                     slidesPerView: 2,
+                     slidesPerView: 3,
                      spaceBetween: 40,
                      loop: true,
                  },
                  992: {
-                     slidesPerView: 2,
+                     slidesPerView: 3,
                      spaceBetween: 40,
                      draggable: false,
                      allowTouchMove: false,
