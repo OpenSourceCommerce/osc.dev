@@ -13,15 +13,19 @@ projects:
     image: images/imageserver.png
     date: June 2020
     link: /imageserver.html
-  - name: Workflow Runner
-    active: false
-    date: September 2020
-    image: images/project-nopic2.png
-  - name: Real User Monitoring
+  - name: MySQL Query Analyzer
     active: false
     date: September 2020
     image: images/project-nopic.png
+  - name: Real User Monitoring
+    active: false
+    date: September 2020
+    image: images/project-nopic2.png
   - name: Logserver
+    active: false
+    date: September 2020
+    image: images/project-nopic.png
+  - name: Workflow Runner
     active: false
     date: September 2020
     image: images/project-nopic2.png
