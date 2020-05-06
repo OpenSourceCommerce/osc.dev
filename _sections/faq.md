@@ -3,6 +3,8 @@ layout: faq
 questions:
   - q: How can I participate?
     a: You can either donate money to fund a project or you can participate by coding.
+  - q: How is the funding goal calculated?
+    a: Currently two developers are working on these projects. The funding goal is simply an estimation of how long development will take and covers the slary of the developers.
   - q: Can you build a software for me?
     a: You can propose a new project, and we will try to get funding for your idea.
   - q: Why are you giving this away for free?
