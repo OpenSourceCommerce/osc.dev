@@ -8,8 +8,8 @@ description: >-
 baseurl: "/" 
 url: "https://osc.dev"
 #twitter_username:
-github_username:  osc-dev
-github_link: https://github.com/OSC-DEV
+github_username:  OpenSourceCommerce
+github_link: https://github.com/OpenSourceCommerce
 
 plugins: []
 
