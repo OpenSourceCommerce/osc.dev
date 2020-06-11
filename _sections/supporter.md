@@ -11,6 +11,6 @@ supporters:
     logo: /images/unit-m.png
     link: https://www.unit-m.de/
   - name: nfq asia 
-    logo: /images/unit-m.png
+    logo: /images/NFQ-ASIA_logo_sw.png
     link: https://www.nfq.asia/
 ---
