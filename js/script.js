@@ -24,10 +24,9 @@
                      loop: true,
                  },
                  992: {
-                     slidesPerView: 3,
+                     slidesPerView: 4,
                      spaceBetween: 40,
-                     draggable: false,
-                     allowTouchMove: false,
+                     loop: true,
                  },
              }
          });
